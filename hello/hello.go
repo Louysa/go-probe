@@ -2,6 +2,7 @@ package main
 import (
 	"fmt"
 	"log"
+
 	"example/greetings"
 )
 
@@ -13,7 +14,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Request a greeting message
-	message,err := greetings.Hello("")
+	message, err := greetings.Hello("Dogan")
 	// If an error was returned, print it  to the console
 	// exit the program.
 	if err != nil {
